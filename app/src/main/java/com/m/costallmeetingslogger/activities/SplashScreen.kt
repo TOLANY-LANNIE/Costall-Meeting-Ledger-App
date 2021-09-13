@@ -35,7 +35,7 @@ class SplashScreen : AppCompatActivity() {
         //set animation
         image.animation = topAnim
         Handler().postDelayed({
-            val intent=Intent(this@SplashScreen, MainActivity::class.java)
+            val intent=Intent(this@SplashScreen, AuthActivity::class.java)
             startActivity(intent)
         }, SPLASH_TIME_OUT.toLong())
     }
