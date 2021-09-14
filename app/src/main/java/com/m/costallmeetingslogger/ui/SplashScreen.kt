@@ -1,4 +1,4 @@
-package com.m.costallmeetingslogger.activities
+package com.m.costallmeetingslogger.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -8,8 +8,6 @@ import android.view.WindowManager
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.widget.ImageView
-import androidx.core.os.postDelayed
-import com.m.costallmeetingslogger.MainActivity
 
 import com.m.costallmeetingslogger.R
 

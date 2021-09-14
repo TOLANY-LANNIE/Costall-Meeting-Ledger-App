@@ -3,9 +3,7 @@ package com.m.costallmeetingslogger
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.m.costallmeetingslogger.R
-import com.m.costallmeetingslogger.activities.AuthActivity
-import com.m.costallmeetingslogger.activities.SplashScreen
+import com.m.costallmeetingslogger.ui.SplashScreen
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
