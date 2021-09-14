@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_auth"
+    app:startDestination="@id/loginFragment">
+
+    <fragment android:id="@+id/loginFragment"
+        android:name="com.m.costallmeetingslogger.activities.auth.LoginFragment"
+        android:label="loginFragment"
+        tools:layout="@layout/fragment_login"/>
+    <fragment android:id="@+id/personaInfo_fragment"
+        android:name="com.m.costallmeetingslogger.activities.auth.PersonalInfoFragment"
+        android:label="personaInfo_fragment"
+        tools:layout="@layout/fragment_signup_personalinfo"/>
+    <fragment android:id="@+id/organisationInfo_fragment"
+        android:name="com.m.costallmeetingslogger.activities.auth.OrganisationInfoFragment"
+        android:label="organisationInfo_fragment"
+        tools:layout="@layout/fragment_signup_orginfo"/>
+    <fragment android:id="@+id/account_fragment"
+        android:name="com.m.costallmeetingslogger.activities.auth.UserAccountFragment"
+        android:label="UserAccountFragment"
+        tools:layout="@layout/fragment_signup_account"/>
+
+</navigation>
