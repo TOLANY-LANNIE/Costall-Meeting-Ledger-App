@@ -1,4 +1,4 @@
-package com.m.costallmeetingslogger.network
+package com.m.costallmeetingslogger.remoteDataSource
 
 import com.m.costallmeetingslogger.models.LoginResponse
 import retrofit2.http.Field

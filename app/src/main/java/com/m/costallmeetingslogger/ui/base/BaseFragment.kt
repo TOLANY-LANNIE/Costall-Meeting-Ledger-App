@@ -9,7 +9,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.viewbinding.ViewBinding
 import com.m.costallmeetingslogger.repository.BaseRepository
-import com.m.costallmeetingslogger.network.RemoteDataSource
+import com.m.costallmeetingslogger.remoteDataSource.RemoteDataSource
 import com.m.costallmeetingslogger.viewmodel.ViewModelFactory
 
 abstract class BaseFragment<VM:ViewModel,B:ViewBinding, R:BaseRepository>: Fragment(){

@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.m.costallmeetingslogger.repository.AuthRepository
 import com.m.costallmeetingslogger.models.LoginResponse
-import com.m.costallmeetingslogger.network.Resource
+import com.m.costallmeetingslogger.remoteDataSource.Resource
 import kotlinx.coroutines.launch
 
 

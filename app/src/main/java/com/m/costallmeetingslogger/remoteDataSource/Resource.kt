@@ -1,4 +1,4 @@
-package com.m.costallmeetingslogger.network
+package com.m.costallmeetingslogger.remoteDataSource
 
 import okhttp3.ResponseBody
 

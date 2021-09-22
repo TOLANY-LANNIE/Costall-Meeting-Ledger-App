@@ -7,8 +7,8 @@ import android.widget.Toast
 import androidx.lifecycle.Observer
 import com.m.costallmeetingslogger.databinding.FragmentLoginBinding
 import com.m.costallmeetingslogger.repository.AuthRepository
-import com.m.costallmeetingslogger.network.AuthApi
-import com.m.costallmeetingslogger.network.Resource
+import com.m.costallmeetingslogger.remoteDataSource.AuthApi
+import com.m.costallmeetingslogger.remoteDataSource.Resource
 import com.m.costallmeetingslogger.ui.base.BaseFragment
 
 class LoginFragment: BaseFragment<AuthViewModel, FragmentLoginBinding, AuthRepository>() {
