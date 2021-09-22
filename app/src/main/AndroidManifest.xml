@@ -12,11 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CostallMeetingsLogger">
         <activity
-            android:name=".ui.AuthActivity"
+            android:name=".view.AuthActivity"
             android:exported="true" />
 
         <activity
-            android:name=".ui.SplashScreen"
+            android:name=".view.SplashScreen"
             android:exported="true"
             android:theme="@style/Theme.SplashScreen">
 

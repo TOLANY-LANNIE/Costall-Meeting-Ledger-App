@@ -1,4 +1,4 @@
-package com.m.costallmeetingslogger.ui.base
+package com.m.costallmeetingslogger.view.base
 
 import android.os.Bundle
 import android.view.LayoutInflater

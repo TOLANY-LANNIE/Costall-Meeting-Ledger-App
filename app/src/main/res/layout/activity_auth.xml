@@ -7,7 +7,7 @@
     app:layoutDescription="@xml/activity_auth_scene"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".ui.AuthActivity">
+    tools:context=".view.AuthActivity">
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView"

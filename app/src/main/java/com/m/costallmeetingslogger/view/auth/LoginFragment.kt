@@ -1,4 +1,4 @@
-package com.m.costallmeetingslogger.ui.auth
+package com.m.costallmeetingslogger.view.auth
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import com.m.costallmeetingslogger.databinding.FragmentLoginBinding
 import com.m.costallmeetingslogger.repository.AuthRepository
 import com.m.costallmeetingslogger.remoteDataSource.AuthApi
 import com.m.costallmeetingslogger.remoteDataSource.Resource
-import com.m.costallmeetingslogger.ui.base.BaseFragment
+import com.m.costallmeetingslogger.view.base.BaseFragment
 
 class LoginFragment: BaseFragment<AuthViewModel, FragmentLoginBinding, AuthRepository>() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {

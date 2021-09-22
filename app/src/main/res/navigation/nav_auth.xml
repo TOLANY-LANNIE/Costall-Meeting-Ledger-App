@@ -6,19 +6,19 @@
     app:startDestination="@id/loginFragment">
 
     <fragment android:id="@+id/loginFragment"
-        android:name="com.m.costallmeetingslogger.ui.auth.LoginFragment"
+        android:name="com.m.costallmeetingslogger.view.auth.LoginFragment"
         android:label="loginFragment"
         tools:layout="@layout/fragment_login"/>
     <fragment android:id="@+id/personaInfo_fragment"
-        android:name="com.m.costallmeetingslogger.ui.auth.PersonalInfoFragment"
+        android:name="com.m.costallmeetingslogger.view.auth.PersonalInfoFragment"
         android:label="personaInfo_fragment"
         tools:layout="@layout/fragment_signup_personalinfo"/>
     <fragment android:id="@+id/organisationInfo_fragment"
-        android:name="com.m.costallmeetingslogger.ui.auth.OrganisationInfoFragment"
+        android:name="com.m.costallmeetingslogger.view.auth.OrganisationInfoFragment"
         android:label="organisationInfo_fragment"
         tools:layout="@layout/fragment_signup_orginfo"/>
     <fragment android:id="@+id/account_fragment"
-        android:name="com.m.costallmeetingslogger.ui.auth.UserAccountFragment"
+        android:name="com.m.costallmeetingslogger.view.auth.UserAccountFragment"
         android:label="UserAccountFragment"
         tools:layout="@layout/fragment_signup_account"/>
 

@@ -1,4 +1,4 @@
-package com.m.costallmeetingslogger.ui
+package com.m.costallmeetingslogger.view
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

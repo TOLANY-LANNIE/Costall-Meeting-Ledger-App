@@ -1,4 +1,4 @@
-package com.m.costallmeetingslogger.ui.auth
+package com.m.costallmeetingslogger.view.auth
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
