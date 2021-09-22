@@ -1,4 +1,4 @@
-package com.m.costallmeetingslogger.retrofit
+package com.m.costallmeetingslogger.network
 
 import okhttp3.ResponseBody
 

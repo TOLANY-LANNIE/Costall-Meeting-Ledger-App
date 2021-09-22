@@ -1,7 +1,7 @@
 package com.m.costallmeetingslogger.repository
 
-import com.m.costallmeetingslogger.retrofit.Resource
-import com.m.costallmeetingslogger.retrofit.Resource.Failure
+import com.m.costallmeetingslogger.network.Resource
+import com.m.costallmeetingslogger.network.Resource.Failure
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import retrofit2.HttpException

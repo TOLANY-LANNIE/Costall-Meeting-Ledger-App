@@ -1,6 +1,6 @@
 package com.m.costallmeetingslogger.repository
 
-import com.m.costallmeetingslogger.retrofit.AuthApi
+import com.m.costallmeetingslogger.network.AuthApi
 
 class AuthRepository(
     private val api:AuthApi
