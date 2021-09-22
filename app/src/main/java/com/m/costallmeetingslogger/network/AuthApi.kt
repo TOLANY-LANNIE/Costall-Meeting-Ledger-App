@@ -1,6 +1,6 @@
 package com.m.costallmeetingslogger.network
 
-import com.m.costallmeetingslogger.responses.LoginResponse
+import com.m.costallmeetingslogger.models.LoginResponse
 import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded
 import retrofit2.http.POST

@@ -1,4 +1,4 @@
-package com.m.costallmeetingslogger.responses
+package com.m.costallmeetingslogger.models
 
 data class LoginResponse(
     val Api_Key: String,
