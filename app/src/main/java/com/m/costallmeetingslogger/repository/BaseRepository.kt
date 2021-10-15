@@ -1,7 +1,6 @@
 package com.m.costallmeetingslogger.repository
 
 import com.m.costallmeetingslogger.remoteDataSource.Resource
-import com.m.costallmeetingslogger.remoteDataSource.Resource.Failure
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import retrofit2.HttpException
@@ -16,9 +15,9 @@ abstract class BaseRepository {
             }catch (throwable:Throwable){
                 when(throwable){
                     is HttpException ->{
-                        Failure(false,throwable.code(), throwable.response()?.errorBody())
+                        Resource.Failure(false,throwable.code(), throwable.response()?.errorBody())
                     }else ->{
-                        Failure(true,null, null)
+                        Resource.Failure(true,null, null)
                     }
                 }
             }

@@ -1,4 +1,4 @@
-package com.m.costallmeetingslogger.view.auth
+package com.m.costallmeetingslogger.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -14,6 +14,7 @@ class AuthViewModel(
     private val repository: AuthRepository
 ):ViewModel() {
     private val _loginResponse:MutableLiveData<Resource<LoginResponse>> = MutableLiveData()
+
     val loginResponse:LiveData<Resource<LoginResponse >>
         get() = _loginResponse
 

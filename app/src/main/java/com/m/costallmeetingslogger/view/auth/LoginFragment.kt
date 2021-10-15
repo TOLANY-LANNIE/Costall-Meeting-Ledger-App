@@ -10,6 +10,7 @@ import com.m.costallmeetingslogger.repository.AuthRepository
 import com.m.costallmeetingslogger.remoteDataSource.AuthApi
 import com.m.costallmeetingslogger.remoteDataSource.Resource
 import com.m.costallmeetingslogger.view.base.BaseFragment
+import com.m.costallmeetingslogger.viewmodel.AuthViewModel
 
 class LoginFragment: BaseFragment<AuthViewModel, FragmentLoginBinding, AuthRepository>() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
@@ -21,7 +22,7 @@ class LoginFragment: BaseFragment<AuthViewModel, FragmentLoginBinding, AuthRepos
                     Toast.makeText(requireContext(), it.toString(), Toast.LENGTH_LONG).show()
                 }
                 is Resource.Failure ->{
-                    Toast.makeText(requireContext(),it.toString(), Toast.LENGTH_LONG).show()
+                    Toast.makeText(requireContext(),"Login failed", Toast.LENGTH_LONG).show()
                 }
             }
         })
@@ -35,6 +36,7 @@ class LoginFragment: BaseFragment<AuthViewModel, FragmentLoginBinding, AuthRepos
         }
     }
     override fun getViewModel() = AuthViewModel::class.java
+
     override fun getFragmentBinding(
         inflater: LayoutInflater,
         container: ViewGroup?
